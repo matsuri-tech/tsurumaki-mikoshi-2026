@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carry the Mikoshi in Waseda — For Hotel Guests</title>
+<meta name="description" content="Join the Tenso Shrine Festival in Tsurumaki-cho, Waseda — shoulder a mikoshi with the local community. Sat, Sep 19 &amp; Sun, Sep 20. Free — happi coat lent free of charge.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Carry the Mikoshi in Waseda — For Hotel Guests">
+<meta property="og:description" content="The Tenso Shrine Festival in Tsurumaki-cho, Waseda, Shinjuku. Shoulder a mikoshi with locals — Sat, Sep 19 and/or Sun, Sep 20. Free, happi coat lent free of charge.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://matsuri-tech.github.io/tsurumaki-mikoshi-2026/assets/hero_group.jpg">
+<link rel="icon" href="assets/logo.webp">
+</head>
+<body>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:"Avenir Next","Helvetica Neue","Hiragino Sans",sans-serif}
+img{max-width:100%;display:block}
+button{font:inherit;cursor:pointer}
+a{color:inherit}
+:focus-visible{outline:3px solid #d9a441;outline-offset:2px}
+.stage{container-type:inline-size}
+
+.lp{--bg:#f5f2ea;--ink:#1d1c19;--indigo:#16224a;--indigo-2:#0f1834;--vermilion:#e8402d;--verm-d:#c93420;--gold:#d9a441;--gold-l:#f0d9a6;
+    --f-line:#d9d4c6;--f-bg:#fff;--f-focus:#e8402d;
+    background:var(--bg);color:var(--ink);overflow:hidden}
+.lp .inner{max-width:760px;margin:0 auto;padding:0 22px}
+.lp section{padding:56px 0}
+.lp p{line-height:1.75}
+.badge{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;letter-spacing:.05em;border-radius:999px;padding:6px 13px}
+.cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;text-decoration:none;border-radius:999px;transition:transform .15s ease}
+.cta:hover{transform:translateY(-2px)}
+@media (prefers-reduced-motion: reduce){.cta:hover{transform:none}}
+.grid{display:grid;gap:14px}
+.stickycta{position:sticky;bottom:0;z-index:40;display:none;padding:10px 14px;backdrop-filter:blur(8px);background:rgba(15,24,52,.85)}
+.stickycta .cta{width:100%;padding:14px 18px;font-size:15.5px;background:var(--vermilion);color:#fff}
+@container (max-width: 560px){ .stickycta{display:block} }
+
+.lp-head{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;background:var(--indigo-2);position:sticky;top:0;z-index:30}
+.lp-head img{height:28px;width:auto;background:#fff;border-radius:6px;padding:3px 7px}
+.lp-head .cta{background:var(--vermilion);color:#fff;padding:9px 18px;font-size:13.5px}
+.lp-head .cta:hover{background:var(--verm-d)}
+
+.hero{position:relative;background:linear-gradient(180deg, rgba(15,24,52,.55) 0%, rgba(15,24,52,.85) 78%, var(--indigo-2) 100%), url(assets/hero_group.jpg);background-size:cover;background-position:center 34%;color:#fff;padding:74px 0 66px}
+.hero .tate{position:absolute;top:24px;right:20px;writing-mode:vertical-rl;font-size:15px;letter-spacing:.5em;font-weight:700;color:var(--gold-l);border-right:1px solid rgba(240,217,166,.5);padding-right:10px;height:190px}
+.kicker{display:inline-block;background:var(--vermilion);color:#fff;font-size:11.5px;font-weight:700;letter-spacing:.24em;padding:7px 12px;border-radius:3px;margin-bottom:18px}
+h1.title{font-family:"Avenir Next Condensed","Arial Narrow","Avenir Next",sans-serif;font-weight:700;font-size:clamp(38px,8.4cqw,68px);line-height:1;letter-spacing:.015em;text-transform:uppercase;text-wrap:balance}
+h1 .thin{display:block;font-size:.42em;letter-spacing:.28em;font-weight:600;color:var(--gold-l);margin-top:14px}
+.hero .lead{margin-top:18px;max-width:540px;font-size:15.5px;color:#e6e4dc}
+.hero .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.hero .badge{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);color:#fff}
+.hero .badge.fee{background:var(--gold);border-color:var(--gold);color:#241a05}
+.hero .cta{background:var(--vermilion);color:#fff;padding:16px 32px;font-size:16.5px;margin-top:26px;box-shadow:0 12px 30px rgba(232,64,45,.4)}
+.hero .cta:hover{background:var(--verm-d)}
+.photonote{font-size:11px;color:rgba(255,255,255,.5);margin-top:18px}
+
+.kanban{background:var(--indigo-2);color:#fff;padding:26px 0 30px;background-image:repeating-radial-gradient(circle at 0 130%, transparent 0 34px, rgba(255,255,255,.045) 34px 36px)}
+.kanban .grid{grid-template-columns:1fr 1fr}
+@container (min-width: 700px){ .kanban .grid{grid-template-columns:repeat(4,1fr)} }
+.fact .k{font-size:10.5px;font-weight:700;letter-spacing:.2em;color:var(--gold);margin-bottom:7px}
+.fact .v{font-size:14.5px;font-weight:700;line-height:1.45}
+.fact .s{font-size:12px;color:#b6bdd6;margin-top:3px;line-height:1.5}
+
+h2.sec{font-family:"Avenir Next Condensed","Arial Narrow",sans-serif;font-size:30px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;gap:14px}
+h2.sec::before{content:"";width:12px;height:12px;background:var(--vermilion);transform:rotate(45deg);flex:none}
+.sec-kick{font-size:11.5px;font-weight:700;letter-spacing:.3em;color:var(--vermilion);margin-bottom:10px}
+section > .inner > p{margin-top:16px}
+
+.steps{grid-template-columns:1fr;margin-top:26px}
+@container (min-width: 700px){ .steps{grid-template-columns:repeat(3,1fr)} }
+.step{background:#fff;border-radius:4px;border-top:4px solid var(--vermilion);box-shadow:0 8px 26px rgba(22,34,74,.08);padding:20px}
+.step .n{font-family:"Avenir Next Condensed",sans-serif;font-size:34px;font-weight:700;color:var(--gold);line-height:1}
+.step h3{font-size:15.5px;margin:10px 0 6px}
+.step .t{font-size:11.5px;font-weight:700;letter-spacing:.14em;color:var(--vermilion);margin-top:2px}
+.step p{font-size:13.5px;color:#55524a;line-height:1.65}
+
+.slots{grid-template-columns:1fr;margin-top:24px}
+@container (min-width: 640px){ .slots{grid-template-columns:1fr 1fr} }
+.slot{background:#fff;border-radius:6px;box-shadow:0 10px 30px rgba(22,34,74,.10);padding:24px 22px;border-left:6px solid var(--indigo)}
+.slot.pm{border-left-color:var(--vermilion)}
+.slot .clock{font-family:"Avenir Next Condensed","Arial Narrow",sans-serif;font-size:34px;font-weight:700;line-height:1;color:var(--indigo)}
+.slot.pm .clock{color:var(--vermilion)}
+.slot .until{font-size:12.5px;font-weight:700;letter-spacing:.12em;color:#8a8376;margin-top:6px}
+.slot h3{font-size:16.5px;margin:12px 0 8px}
+.slot p{font-size:13.5px;color:#55524a;line-height:1.7}
+.slot .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;background:#f0ede3;color:#6b6558;border-radius:999px;padding:5px 11px;margin-top:12px}
+.slot.pm .tag{background:#fde8e4;color:#a82b1a}
+.bothbar{margin-top:16px;background:var(--indigo-2);color:#fff;border-radius:6px;padding:18px 22px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.bothbar .lbl{font-size:11.5px;font-weight:700;letter-spacing:.2em;color:var(--gold);flex:none}
+.bothbar p{font-size:13.5px;color:#dcdff0;line-height:1.65;margin:0}
+
+.galsec{background:var(--indigo);color:#fff;background-image:repeating-radial-gradient(circle at 100% -30%, transparent 0 34px, rgba(255,255,255,.04) 34px 36px)}
+.galsec .sec-kick{color:var(--gold)}
+.gal{grid-template-columns:1fr}
+@container (min-width: 561px){ .gal{grid-template-columns:1fr 1fr} .gal .wide{grid-column:span 2} }
+.shot{border-radius:6px;overflow:hidden;position:relative}
+.shot img{width:100%;height:100%;object-fit:cover;aspect-ratio:16/9}
+.shot figcaption{font-size:12.5px;padding:8px 2px 0;color:#c6cde4;line-height:1.5}
+.galnote{font-size:11.5px;color:rgba(198,205,228,.55);margin-top:14px}
+
+.notes li{margin:0;padding:13px 0 13px 30px;border-bottom:1px solid #e3ddcf;list-style:none;position:relative;font-size:14.5px;line-height:1.65}
+.notes li::before{content:"";position:absolute;left:6px;top:20px;width:9px;height:9px;background:var(--vermilion);transform:rotate(45deg)}
+.notes li b{display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--indigo);margin-bottom:2px}
+.access{background:#fff;border-radius:6px;padding:22px;display:grid;gap:16px;box-shadow:0 8px 26px rgba(22,34,74,.08);margin-top:26px}
+@container (min-width: 700px){ .access{grid-template-columns:1.1fr .9fr;align-items:center} }
+.map{border-radius:6px;background:#e9e4d8 url(assets/lanterns.jpg);background-size:cover;background-position:center;min-height:180px;position:relative}
+.map a{position:absolute;inset:auto 10px 10px auto;background:var(--indigo-2);color:#fff;border-radius:999px;font-size:12.5px;font-weight:700;padding:8px 14px;text-decoration:none}
+
+.f-privacy{font-size:12.5px;opacity:.72;line-height:1.6;margin-top:18px}
+.form-card{background:#fff;border-radius:6px;border-top:5px solid var(--vermilion);padding:26px 22px;box-shadow:0 16px 44px rgba(22,34,74,.12)}
+@container (min-width: 700px){ .form-card{padding:34px 38px} }
+
+footer{background:var(--indigo-2);color:#9aa3c4;padding:26px 22px;font-size:12.5px;display:flex;align-items:center;gap:14px;justify-content:space-between;flex-wrap:wrap}
+footer img{height:26px;width:auto;background:#fff;border-radius:6px;padding:4px 8px}
+</style>
+
+<div class="stage">
+<div class="lp">
+  <div class="lp-head">
+    <img src="assets/logo.webp" alt="matsuri technologies">
+    <a class="cta" href="#form">Apply</a>
+  </div>
+
+  <div class="hero">
+    <div class="tate" aria-hidden="true">早稲田 鶴巻町 神輿</div>
+    <div class="inner">
+      <span class="kicker">FOR HOTEL GUESTS — LIMITED SPOTS</span>
+      <h1 class="title">Carry the<br>Mikoshi<span class="thin">WASEDA · TSURUMAKI-CHO · SHINJUKU — TENSO SHRINE FESTIVAL</span></h1>
+      <p class="lead">Shoulder a <em>mikoshi</em> — a portable shrine — through the streets of Tsurumaki-cho with the local community, at the Tenso Shrine Festival: a neighborhood tradition since before the war, whose mikoshi has been carried since around 1950. Join Saturday's compact first outing, Sunday's main procession, or both days.</p>
+      <div class="badges">
+        <span class="badge">Sat, Sep 19 &amp; Sun, Sep 20</span>
+        <span class="badge">One day · or both</span>
+        <span class="badge fee">FREE · happi lent free</span>
+      </div>
+      <a class="cta" href="#form">Apply to join <span aria-hidden="true">→</span></a>
+      <p class="photonote">Photo: our team and guests at a neighborhood mikoshi festival in Tokyo (Aug 2026)</p>
+    </div>
+  </div>
+
+  <div class="kanban">
+    <div class="inner">
+      <div class="grid">
+        <div class="fact"><div class="k">DATE</div><div class="v">Sat, Sep 19 &amp;<br>Sun, Sep 20</div><div class="s">Sat 4:00–5:00 p.m. · Sun 12:00 noon–about 5:00 p.m. · pick one day or both</div></div>
+        <div class="fact"><div class="k">AREA</div><div class="v">Waseda / Tsurumaki-cho, Shinjuku-ku</div><div class="s">Exact meeting spot emailed to selected guests</div></div>
+        <div class="fact"><div class="k">FEE</div><div class="v">Free</div><div class="s">Happi coat lent free of charge on the day</div></div>
+        <div class="fact"><div class="k">WHO</div><div class="v">Guests · ages 15+</div><div class="s">For guests staying at our properties in the Waseda / Tsurumaki-cho area · limited spots</div></div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="inner">
+      <div class="sec-kick">ABOUT</div>
+      <h2 class="sec">Shoulder the Shrine</h2>
+      <p>A <em>mikoshi</em> is a portable Shinto shrine that a neighborhood carries on their shoulders through the streets — chanting, swaying and cheering together — once a year. The Tsurumaki-cho neighborhood association is welcoming a few of our hotel guests to the Tenso Shrine Festival, a tradition here since before the war: Tsurumaki-cho was once a large town divided into four neighborhood associations, and at festival time their mikoshi are carried through the streets, as they have been since around 1950. You'll put on a happi coat, line up shoulder-to-shoulder with the local bearers — our staff will be carrying too — and carry the shrine yourself. No experience needed — the team shows you how.</p>
+      <div class="grid steps">
+        <div class="step"><div class="n">01</div><div class="t">LIMITED SPOTS</div><h3>Apply &amp; get selected</h3><p>Guest spots are limited, so we select among applicants. If you're in, we'll email you the meeting point and time by 7:00 p.m. on Thursday, Sep 10.</p></div>
+        <div class="step"><div class="n">02</div><div class="t">YOUR CHOICE</div><h3>Pick your day</h3><p>The form asks which day you'd like to join: Saturday's compact one-hour outing, Sunday's main procession, or both days. Come for as much or as little as you like.</p></div>
+        <div class="step"><div class="n">03</div><div class="t">ON THE DAY</div><h3>Suit up &amp; carry</h3><p>Borrow a happi coat — free of charge — and slip it over your own clothes; no changing needed. Then take your place under the poles and carry the shrine in short turns, with breaks in between.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="inner">
+      <div class="sec-kick">CHOOSE</div>
+      <h2 class="sec">Two days to join</h2>
+      <p>The festival runs over two days, and you're welcome to come to either one — or both. The exact meeting point and time are emailed to selected guests.</p>
+      <div class="grid slots">
+        <div class="slot">
+          <div class="clock">16:00</div>
+          <div class="until">SAT, SEP 19 · UNTIL 5:00 P.M.</div>
+          <h3>The first outing</h3>
+          <p>A compact opening day: about one hour of carrying as the mikoshi winds through the streets of Tsurumaki-cho. A short, friendly introduction — perfect if you want a first taste of the festival.</p>
+          <span class="tag">SATURDAY</span>
+        </div>
+        <div class="slot pm">
+          <div class="clock">12:00</div>
+          <div class="until">SUN, SEP 20 · UNTIL ABOUT 5:00 P.M.</div>
+          <h3>The main day</h3>
+          <p>The main procession. From noon into the late afternoon the mikoshi is carried through the town, pausing for rest stops along the way. Bearers take turns, so you carry short stretches and rest in between.</p>
+          <span class="tag">SUNDAY</span>
+        </div>
+      </div>
+      <div class="bothbar">
+        <span class="lbl">OR BOTH</span>
+        <p>Come on both days if you like — the form lets you choose Saturday, Sunday, or both. Carrying a mikoshi is genuinely physical work, so it's also completely fine to pick just one day.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="galsec">
+    <div class="inner">
+      <div class="sec-kick">SCENES</div>
+      <h2 class="sec" style="color:#fff">Festival Highlights</h2>
+      <div class="grid gal" style="margin-top:24px">
+        <figure class="shot wide"><img src="assets/carry_smiles.jpg" alt="Our guests and locals smiling while carrying the mikoshi poles"><figcaption>Guests and locals, shoulder to shoulder under the carrying poles</figcaption></figure>
+        <figure class="shot"><img src="assets/carry_pole.jpg" alt="Guests lifting the golden mikoshi through the streets"><figcaption>Lifting the shrine through the streets</figcaption></figure>
+        <figure class="shot"><img src="assets/trio_fans.jpg" alt="Three participants in happi coats in front of the mikoshi"><figcaption>Suited up in happi, ready to carry</figcaption></figure>
+      </div>
+      <p class="galnote">Photos from a neighborhood mikoshi festival in Tokyo (August 2026), which we joined together with our guests.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="inner">
+      <div class="sec-kick">NOTES</div>
+      <h2 class="sec">Good to know</h2>
+      <ul class="notes" style="margin-top:18px">
+        <li><b>Limited spots</b>Applying doesn't confirm your place — spots are limited and we select among applicants. Please apply by <strong>5:00 p.m. on Thursday, Sep 10</strong> (Japan time). We email the selected guests <strong>by 7:00 p.m. the same evening</strong> with the meeting point and time. If you haven't heard from us by then, you weren't selected this time.</li>
+        <li><b>Who can join</b>This event is for guests staying at our properties in the Waseda / Tsurumaki-cho area — you'll need your reservation number to apply. It's a physical event, so it's for healthy participants roughly ages 15 and up.</li>
+        <li><b>Choose your day</b>Saturday (4:00–5:00 p.m.), Sunday (12:00 noon to about 5:00 p.m.), or both days. The form asks which you'd like.</li>
+        <li><b>What you wear</b>A happi coat is lent to you free of charge — you just slip it over your own clothes, so no changing is needed (and there is no changing room). A T-shirt underneath is fine, and no special tabi boots or belt are required. Please keep the happi on the whole time you're with the mikoshi, and return it at the end — if you need to leave earlier, hand yours to our staff first.</li>
+        <li><b>Shoes</b>No special footwear is needed for this festival. Sneakers or other flat, closed shoes you can walk and stand in for a few hours are perfect. Sandals, flip-flops, heels and slippery soles aren't safe for carrying.</li>
+        <li><b>How the carrying works</b>Bearers take turns: you carry short stretches, swap out, and rest — there are breaks along the route, especially on Sunday. You can step out partway through if you need to; just return your happi to our staff when you go.</li>
+        <li><b>Free — and a gift</b>Participation is free, and the happi coat is lent free of charge. As a souvenir, you'll receive a traditional <em>tenugui</em> hand towel with the neighborhood crest to take home.</li>
+        <li><b>Luggage</b>Please come as hands-free as you can — a small bag at most. There is no luggage storage at the festival.</li>
+        <li><b>Follow the crew</b>This is a real neighborhood tradition we're being welcomed into. The association's officials run the procession — please follow their guidance and our staff's at all times; anyone who doesn't will be asked to return the happi and leave.</li>
+        <li><b>Safety rules</b>Never climb on the mikoshi or its carrying poles. Bare torsos are not allowed — keep the happi on. No alcohol during the procession — fighting or drunken behavior means immediate removal.</li>
+        <li><b>Getting there</b>Please come by train or on foot — there is no parking at the festival. The meeting point is a few minutes from Waseda Station. Smoking only in designated areas.</li>
+        <li><b>Time</b>Please keep your chosen day free. The exact meeting point and time go only to selected guests, by email; if you're running late on the day, contact the staff member named in that message.</li>
+        <li><b>Photos &amp; video</b>By joining, you agree that we may take photos and video of the group for our website, press and social media — this event is only for guests who are happy with that. When you take your own photos, remember local families and children are everywhere, so please ask before pointing your camera at people.</li>
+        <li><b>Weather</b>Light rain doesn't stop the festival. If severe weather forces a cancellation, we'll let you know by message on your booking platform before the meeting time. It can still be hot in mid-September — bring water.</li>
+      </ul>
+      <div class="access">
+        <div>
+          <div class="sec-kick" style="margin-bottom:6px">ACCESS</div>
+          <p style="font-weight:700">Tsurumaki-cho, Waseda, Shinjuku-ku, Tokyo<br>A few minutes from Waseda Station</p>
+          <p style="font-size:13.5px;color:#55524a;margin-top:8px">The festival takes place in the streets of Tsurumaki-cho, a few minutes from Waseda Station. The exact meeting point and time are sent only to selected guests, by email.</p>
+        </div>
+        <div class="map"><a href="https://maps.google.com/?q=Waseda+Station,+Shinjuku-ku,+Tokyo" target="_blank" rel="noopener">Open in Google Maps ↗</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="form">
+    <div class="inner">
+      <div class="sec-kick">ENTRY</div>
+      <h2 class="sec">Application Form</h2>
+      <p style="margin-top:14px;font-size:14.5px">Joining is <strong>free</strong> — the happi coat is lent at no charge — and spots are limited. The application takes a minute or two: reservation number, name, number of participants, <strong>which day(s) you'd like to join</strong> and your email. We email the selected guests with the meeting details.</p>
+      <div class="form-card" style="margin-top:20px;text-align:center">
+        <p style="font-size:15px;line-height:1.75">Tell us your reservation number, name, email, how many people, and whether you'd like Saturday, Sunday or both days. Results are sent to the email address you provide.</p>
+        <a class="cta" style="background:var(--vermilion);color:#fff;padding:16px 34px;font-size:16.5px;margin-top:20px;box-shadow:0 12px 28px rgba(232,64,45,.35)" href="https://docs.google.com/forms/d/e/1FAIpQLSftqqT9hVric80oyXgZOfWWNHLPLn3-MaQcM8LKsBGmlypWCA/viewform" target="_blank" rel="noopener">APPLY <span aria-hidden="true">→</span></a>
+        <p class="f-privacy" style="margin-top:16px">The form opens in a new tab. Your details are used only to organize this event and are handled per our <a href="notice.html" target="_blank" rel="noopener">event notice &amp; privacy terms</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="stickycta"><a class="cta" href="#form">Apply — Sep 19 &amp; 20 <span aria-hidden="true">→</span></a></div>
+  <footer><img src="assets/logo.webp" alt="matsuri technologies"><span>© 2026 matsuri technologies Inc.</span></footer>
+</div>
+</div>
+
+<script>
+document.querySelectorAll('a[href="#form"]').forEach(a => a.addEventListener('click', e => {
+  const el = document.getElementById('form');
+  if (el) { e.preventDefault(); el.scrollIntoView({behavior:'smooth'}); }
+}));
+</script>
+
+</body>
+</html>
